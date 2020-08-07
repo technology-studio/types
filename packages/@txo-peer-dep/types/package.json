@@ -1,0 +1,32 @@
+{
+  "name": "@txo-peer-dep/types",
+  "version": "1.0.0",
+  "description": "Technology Studio - Types",
+  "main": "lib/index.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technology-studio/types.git"
+  },
+  "author": {
+    "name": "Technology Studio",
+    "email": "npm@technologystudio.sk",
+    "url": "https://github.com/technology-studio/"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "yarn build:clean && yarn build:lib && yarn build:flow",
+    "build:clean": "yarn rimraf lib",
+    "build:lib": "yarn babel src --out-dir lib --ignore **/__tests__/**",
+    "build:flow": "yarn flow-copy-source -i '**/__tests__/**' src lib",
+    "prepare": "yarn build",
+    "build:watch": "concurrently \"yarn build:watch:lib\" \"yarn build:watch:flow\"",
+    "build:watch:lib": "yarn babel src --source-maps --watch --out-dir lib --ignore **/__tests__/**  --verbose",
+    "build:watch:flow": "yarn flow-copy-source --verbose -w -i '**/__tests__/**' src lib"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+  }
+}
