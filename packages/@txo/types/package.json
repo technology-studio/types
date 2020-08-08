@@ -1,6 +1,6 @@
 {
   "name": "@txo/types",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Technology Studio - Types",
   "main": "lib/index.js",
   "typings": "index.d.ts",
