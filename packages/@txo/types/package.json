@@ -1,6 +1,6 @@
 {
   "name": "@txo/types",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Technology Studio - Types",
   "main": "lib/index.js",
   "typings": "index.d.ts",
@@ -25,8 +25,6 @@
     "build:watch:lib": "yarn babel src --source-maps --watch --out-dir lib --ignore **/__tests__/**  --verbose",
     "build:watch:flow": "yarn flow-copy-source --verbose -w -i '**/__tests__/**' src lib"
   },
-  "dependencies": {
-  },
-  "peerDependencies": {
-  }
+  "dependencies": {},
+  "peerDependencies": {}
 }
