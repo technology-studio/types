@@ -1,5 +1,3 @@
 yarn.lock
 node_modules
-src
-babel.config.js
 !lib

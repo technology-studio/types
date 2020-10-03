@@ -1,9 +1,7 @@
-/**
- * @Author: Rostislav Simonik <rostislav.simonik>
- * @Date:   2018-01-30T15:49:24+01:00
- * @Email:  rostislav.simonik@technologystudio.sk
+/*
+ * @Author: Ondrej Mikulas <ondrej.mikulas@technologystudio.sk>
+ * @Date: 2020-07-31T12:07:89+02:00
  * @Copyright: Technology Studio
- * @flow
  */
 
 import './Config/LogConfig'
