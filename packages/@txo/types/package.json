@@ -1,6 +1,6 @@
 {
   "name": "@txo/types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Technology Studio - Types",
   "main": "lib/index.js",
   "typings": "src/index.ts",
@@ -23,8 +23,6 @@
     "build:watch:lib": "yarn tsc --watch",
     "prepare": "yarn build"
   },
-  "dependencies": {
-  },
-  "peerDependencies": {
-  }
+  "dependencies": {},
+  "peerDependencies": {}
 }
