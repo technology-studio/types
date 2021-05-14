@@ -2,12 +2,11 @@
  * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
  * @Date: 2020-03-26T06:03:02+01:00
  * @Copyright: Technology Studio
- * @flow
 **/
 
 import {
   configManager,
-  levels,
+  Level,
 } from '@txo-peer-dep/log'
 import * as ConsoleLogger from '@txo/log-console'
 // import * as ReactotronLogger from '@txo/log-reactotron'
@@ -24,11 +23,11 @@ configManager.update({
     // },
   },
   defaultLevelForNodeEnvironmentMap: {
-    production: levels.ERROR,
-    development: levels.INFO,
+    production: Level.ERROR,
+    development: Level.INFO,
   },
   levelOverride: {
-    level: levels.DEBUG,
+    level: Level.DEBUG,
     namespacePatternList: [
       // '@txo.data-table.src.Api.TableProxy',
     ],
