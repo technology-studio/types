@@ -5,3 +5,4 @@
 **/
 
 export * from './PickPath'
+export * from './Typify'
