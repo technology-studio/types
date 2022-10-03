@@ -4,7 +4,7 @@
  * @Copyright: Technology Studio
 **/
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { is } from '@txo/types'
+import { is } from '../src'
 
 export const nullable: string | null = (null as any)
 export const optional: string | undefined = (undefined as any)
