@@ -9,7 +9,7 @@ export const is = <TYPE>(value: TYPE | undefined | null, onGetError?: () => Erro
   if (value != null) {
     return value
   }
-  if (onGetError) {
+  if (onGetError != null) {
     throw onGetError()
   }
   throw new Error('undefined or null value, should be present')

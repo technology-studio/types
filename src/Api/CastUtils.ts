@@ -5,7 +5,7 @@
  */
 
 export const castString = (value: unknown): string => {
-  if (value && typeof value !== 'string') {
+  if ((Boolean(value)) && typeof value !== 'string') {
     throw new Error(`type of value is not string, value type: ${typeof value}`)
   }
   return value as string
