@@ -8,5 +8,6 @@ export const castString = (value: unknown): string => {
   if (value != null && typeof value !== 'string') {
     throw new Error(`type of value is not string, value type: ${typeof value}`)
   }
-  return value as string
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  return value!
 }

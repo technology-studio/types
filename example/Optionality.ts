@@ -3,7 +3,7 @@
  * @Date: 2020-10-03T15:10:50+02:00
  * @Copyright: Technology Studio
 **/
-/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-assignment */
 import { is } from '../src'
 
 export const nullable: string | null = (null as any)
