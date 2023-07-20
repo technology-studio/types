@@ -4,10 +4,10 @@
  * @Copyright: Technology Studio
  */
 
-export const castString = (value: unknown): string => {
+export const castString = <VALUE,>(value: VALUE): VALUE extends null ? null | string : VALUE extends undefined ? undefined | string : string => {
   if (value != null && typeof value !== 'string') {
-    throw new Error(`type of value is not string, value type: ${typeof value}`)
+    throw Error(`type of value is not string, value type: ${typeof value}`)
   }
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  return value!
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-explicit-any
+  return value as any
 }
