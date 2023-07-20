@@ -1425,14 +1425,14 @@
   dependencies:
     minimatch "^7.4.2"
 
-"@txo-peer-dep/log@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.0.tgz#208c7bc82f4580167d1dbf630456576285567cf0"
-  integrity sha512-QWGmBY8fohz4FBll1paDWVT1Gyq8nQ33cjov8Fd6CErnhJMQt7aEpE4220J06Ldp+rvrQXfFnjIZ0JQC1TVsLA==
+"@txo-peer-dep/log@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.1.tgz#da05983a215b0d9efc7d91ac6f53c8d31529d6fe"
+  integrity sha512-SlEjv1r8mi52Iv6rsHUiO226GxChsKxCA+TeyZ4GoQwG4W+ZVmS+tok9QGEuc2pNn4W8kGk7Cj/i3RCYndf/iQ==
   dependencies:
-    "@txo/config-manager" "^3.0.1"
+    "@txo/config-manager" "^3.1.0"
 
-"@txo/config-manager@^3.0.1":
+"@txo/config-manager@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.1.0.tgz#9a38d0ba2b2355f973775bafe884cdbb7225dc0d"
   integrity sha512-rYSd5Mk4URK3hs7Y5nSXst4KOidmjJPeaNkh+D/L1ndVodvKwXO/rZV00VYXpW71/KSaG1Hj83At3r4WmboKvg==
@@ -3022,9 +3022,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-"eslint-config-standard-with-typescript@git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git":
+"eslint-config-standard-with-typescript@https://github.com/technology-studio-forks/eslint-config-standard-with-typescript":
   version "36.0.0"
-  resolved "git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git#9cae293318a111911178737ae4159896c19aa700"
+  uid "9cae293318a111911178737ae4159896c19aa700"
+  resolved "https://github.com/technology-studio-forks/eslint-config-standard-with-typescript#9cae293318a111911178737ae4159896c19aa700"
   dependencies:
     "@typescript-eslint/parser" "^6.0.0"
     eslint-config-standard "17.0.0"
