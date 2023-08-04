@@ -7,4 +7,4 @@
 export * from './CastUtils'
 export * from './Object'
 export * from './OptionalityUtils'
-export * from './String/IsNotEmptyString'
+export * from './String'
