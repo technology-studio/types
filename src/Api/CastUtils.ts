@@ -11,3 +11,11 @@ export const castString = <VALUE,>(value: VALUE): VALUE extends null ? null | st
   // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-explicit-any
   return value as any
 }
+
+export const castNumber = <VALUE,>(value: VALUE): VALUE extends null ? null | number : VALUE extends undefined ? undefined | number : number => {
+  if (value != null && typeof value !== 'number') {
+    throw Error(`type of value is not number, value type: ${typeof value}`)
+  }
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-explicit-any
+  return value as any
+}
