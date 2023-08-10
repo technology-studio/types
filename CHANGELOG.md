@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/technology-studio/types/compare/v1.4.0...v1.5.0) (2023-08-10)
+
+
+### Features
+
+* add `castNumber` function ([#304](https://github.com/technology-studio/types/issues/304)) ([8ee63c5](https://github.com/technology-studio/types/commit/8ee63c54e1d9aa21016e3b76ef58bfc768d82679))
+
 ## [1.4.0](https://github.com/technology-studio/types/compare/v1.3.1...v1.4.0) (2023-08-04)
 
 
