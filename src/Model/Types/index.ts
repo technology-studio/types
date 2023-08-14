@@ -6,3 +6,4 @@
 
 export * from './PickPath'
 export * from './Typify'
+export * from './String'
