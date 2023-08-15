@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/technology-studio/types/compare/v1.5.0...v1.6.0) (2023-08-15)
+
+
+### Features
+
+* add atLeastOne object type helper ([#311](https://github.com/technology-studio/types/issues/311)) ([3f76c44](https://github.com/technology-studio/types/commit/3f76c444facaf231ccab6aae3cfa1a2ecd5283ed))
+
 ## [1.5.0](https://github.com/technology-studio/types/compare/v1.4.0...v1.5.0) (2023-08-10)
 
 
