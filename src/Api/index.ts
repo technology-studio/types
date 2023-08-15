@@ -5,6 +5,7 @@
 **/
 
 export * from './CastUtils'
+export * from './Function'
 export * from './Object'
 export * from './OptionalityUtils'
 export * from './String'
