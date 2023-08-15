@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/technology-studio/types/compare/v1.6.0...v1.6.1) (2023-08-15)
+
+
+### Bug fixes
+
+* add mising export for AtLeastOne utility type ([#313](https://github.com/technology-studio/types/issues/313)) ([4b7045e](https://github.com/technology-studio/types/commit/4b7045e0ce6746bda4ebb317b62209f244bdff0a))
+
 ## [1.6.0](https://github.com/technology-studio/types/compare/v1.5.0...v1.6.0) (2023-08-15)
 
 
