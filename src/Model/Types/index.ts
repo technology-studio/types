@@ -5,6 +5,7 @@
 **/
 
 export * from './Array'
+export * from './Exact'
 export * from './Function'
 export * from './Object'
 export * from './PickPath'
