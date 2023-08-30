@@ -6,6 +6,12 @@
 
 import type { OnlyString } from './String'
 
+export type IsPlainObject<T> = T extends Record<string, unknown>
+  ? T extends string | number | boolean | unknown[] | ((...args: unknown[]) => unknown)
+    ? never
+    : T
+  : never
+
 type NoExpand<T> = T extends unknown ? T : never
 
 // this type assumes the passed object is entirely optional
