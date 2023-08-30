@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/technology-studio/types/compare/v1.6.1...v1.7.0) (2023-08-30)
+
+
+### Features
+
+* new utility types isFunction, isPlainObject, isArray, Exact  ([#332](https://github.com/technology-studio/types/issues/332)) ([5044a2e](https://github.com/technology-studio/types/commit/5044a2e7087f8a57767721c2336b9002833e15e0))
+
 ## [1.6.1](https://github.com/technology-studio/types/compare/v1.6.0...v1.6.1) (2023-08-15)
 
 
