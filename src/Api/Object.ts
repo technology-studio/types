@@ -4,7 +4,9 @@
  * @Copyright: Technology Studio
 **/
 
-import type { AtLeastOne } from '../Model/Types/Object'
+import type {
+  AtLeastOneNilable,
+} from '../Model/Types/Object'
 
 export const isObject = (obj: unknown): obj is Record<string | number | symbol, unknown> => (
   obj != null && typeof obj === 'object'
@@ -15,4 +17,4 @@ export const isEmptyObject = <OBJECT>(obj?: OBJECT | null): obj is OBJECT => !!(
 )
 
 // eslint-disable-next-line @typescript-eslint/ban-types
-export const atLeastOne = <TYPE extends object>(value: TYPE | undefined): AtLeastOne<TYPE> => value as AtLeastOne<TYPE>
+export const atLeastOne = <TYPE extends object | null | undefined>(value: TYPE): AtLeastOneNilable<TYPE> => value as AtLeastOneNilable<TYPE>
