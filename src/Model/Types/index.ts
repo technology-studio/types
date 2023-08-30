@@ -4,7 +4,9 @@
  * @Copyright: Technology Studio
 **/
 
-export * from './PickPath'
-export * from './Typify'
-export * from './String'
+export * from './Array'
+export * from './Function'
 export * from './Object'
+export * from './PickPath'
+export * from './String'
+export * from './Typify'
