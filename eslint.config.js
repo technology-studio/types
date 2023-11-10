@@ -8,8 +8,8 @@ const config = [
     languageOptions: {
       parserOptions: {
         project: './example/tsconfig.json'
-      }
-    }
+      },
+    },
   },
 ]
 
