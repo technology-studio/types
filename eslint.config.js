@@ -10,7 +10,7 @@ const config = [
         project: './example/tsconfig.json'
       }
     }
-  }
+  },
 ]
 
 module.exports = config
