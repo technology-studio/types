@@ -1,0 +1,10 @@
+[
+  "@typescript-eslint/no-import-type-side-effects",
+  "eslint-comments/require-description",
+  "@stylistic/no-extra-parens",
+  "@typescript-eslint/no-unsafe-type-assertion",
+  "@stylistic/type-generic-spacing",
+  "@typescript-eslint/no-unnecessary-type-parameters",
+  "@typescript-eslint/no-magic-numbers",
+  "@typescript-eslint/consistent-type-exports"
+]
