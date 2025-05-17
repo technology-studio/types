@@ -3,6 +3,7 @@
   "eslint-comments/require-description",
   "@stylistic/no-extra-parens",
   "@typescript-eslint/no-unsafe-type-assertion",
+  "@typescript-eslint/no-unnecessary-type-conversion",
   "@stylistic/type-generic-spacing",
   "@typescript-eslint/no-unnecessary-type-parameters",
   "@typescript-eslint/no-magic-numbers",
